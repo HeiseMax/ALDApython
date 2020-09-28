@@ -1,0 +1,21 @@
+Bbbb
+D5LK
+Aybb
+Axyb
+Axxy
+AxzK
+AzKb
+AzJy
+AzLK
+CKbb
+CJyb
+CJxy
+CJzK
+CLKb
+CLJy
+CLLK
+
+hhash("abcd") = ord(a)*23*23*23 + ord(b)*23*23 + ord(c)*23 + ord(d)
+==> Wenn ord(a) um eins erhöht wird, muss ord(b) um 23 verringert werden
+==> Wenn ord(a) um eins verringert wird, muss ord(b) um 23 erhöht werden
+Das Selbe gilt auch für b und c, c und d.
